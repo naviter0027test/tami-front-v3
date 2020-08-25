@@ -235,24 +235,212 @@
 	<div class="outer">
     	<div class="close_div"><button class="btn_close"></button></div>
 		<div class="form_div">
-        	<div class="item">
-        		<input type="text" placeholder="公司名称">
-            </div>
-        	<div class="item">
-        		<input type="text" placeholder="Email">
-            </div>
-            <div class="item">
-        		<input type="text" placeholder="联络人">
-            </div>
-            <div class="item">
-        		<input type="text" placeholder="连络电话">
-            </div>
-            <div class="item">
-            	<textarea placeholder="问题内容"></textarea>        		
-            </div>
-            <div class="item action">
-        		<button>提 交<i></i></button>
-            </div>
+        	<div class="form_left">
+                <div class="item">
+                    <input type="text" placeholder="公司名称">
+                </div>
+                <div class="item">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="item two_col">
+                    <div class="col"><input type="text" placeholder="联络人"></div>
+                    <div class="col">
+                        <div class="dropdown_div">
+                            
+                            <div class="radiobox_list">
+                                <div class="drop_down_menu" id="drop_down_position">
+                                    <button>
+                                        <span>职称</span>                                        
+                                    </button>
+                                    <div class="list_item">
+                                    	<div class="scrollbar">
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">技術長</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">顧問</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">特別助理</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">廠長</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">協理</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">經理</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">課長</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">主任</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">管理師</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">行政人員</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">職員</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">助理</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">業務</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">企劃</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">行銷</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">工程師</span>
+                                                </label>
+                                            </div>
+                                            <div class="item">
+                                                <label class="container">
+                                                  <input type="radio" name="radio_position">
+                                                  <span class="checkmark">其他</span>
+                                                </label>
+                                            </div>  
+                                        </div>                                      
+                                    </div>                                     
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="item fixed_margin_bottom">
+                    <input type="text" placeholder="连络电话">
+                </div>
+                <div class="item fixed_margin_bottom">
+                    <label>请勾选 贵公司产业属性，</label>
+                    <div class="checkbox_list">
+                        <div class="checkbox_outer">
+                            <label class="chk_container">工具机
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">塑橡胶机械
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">纺织机械
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">食品机械暨包装机械
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">印刷机械
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">木工机械
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">模具
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">表面处理
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">其他产业机械
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox_outer">
+                            <label class="chk_container">零组件
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                        </div>                    
+                    </div>
+                </div>
+			</div>
+            <div class="form_right"> 
+                <div class="item">
+                    <textarea placeholder="问题内容"></textarea>        		
+                </div>
+                <div class="item action">
+                    <button>提 交<i></i></button>
+                </div>
+            </div>    
         </div>
 	</div>
 </div>
